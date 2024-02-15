@@ -8,9 +8,9 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
+                text=_["⛩ 𝙎𝙪𝙢𝙢𝙤𝙣 𝙢𝙚 ⛩"], url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text=_["𝙎𝙐𝙋𝙋𝙊𝙍𝙏 🔥"], url=f"https://t.me/soulkigandugadari"),
         ],
     ]
     return buttons
@@ -20,16 +20,16 @@ def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
+                text=_["⛩ 𝙎𝙪𝙢𝙢𝙤𝙣 𝙢𝙚 ⛩"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=_["𝙊𝙒𝙉𝙀𝙍 ⚡️"], user_id=config.OWNER_ID),
+            InlineKeyboardButton(text=_["𝙎𝙐𝙋𝙋𝙊𝙍𝙏 🔥"], url=f"https://t.me/soulkigandugadari"),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
+            InlineKeyboardButton(text=_["𝙎𝙆𝙄𝙇𝙇'𝙎 ✨"], callback_data="settings_back_helper"),
         ],
     ]
     return buttons
